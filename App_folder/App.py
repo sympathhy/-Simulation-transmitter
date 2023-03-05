@@ -11,7 +11,7 @@ tk.set_default_color_theme("green")  # задаём тему приложени�
 class Application(tk.CTk):
     def __init__(self):
         super().__init__()
-        self.geometry("390x150") # Задаём размер окна
+        self.geometry("420x150") # Задаём размер окна
 
         # Блок Label, задаём текст в начальном окне
         self.title('Sim_model')
